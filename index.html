@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Xenon - Desktop Helping Program</title>
+  <style>
+    /* Body Styling */
+    body {
+      background-color:#4D4D4D;
+      background-size: cover;
+      font-family: "Courier New", Courier, monospace;
+      color: black;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5)
+    }
+
+    /* Navbar Styling */
+    .navbar {
+      overflow: hidden;\
+      border:15px;
+      background-color: #2e273f;
+      border-radius: 15px;
+      margin-bottom: 20px;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .navbar a.active {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    /* Main Content Styling */
+    .main {
+      margin: 0 auto;
+      max-width: 800px;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 15px;
+    }
+
+    .main h1 {
+      text-align: center;
+      font-size: 48px;
+      margin-bottom: 30px;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .main h2 {
+      font-size: 36px;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .main h3 {
+      font-size: 28px;
+      margin-top: 40px;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .main p {
+      font-size: 20px;
+      line-height: 1.5;
+      margin-bottom: 30px;
+      text-align: justify;
+    }
+
+    .main button {
+      background-color: #808080;
+      color: white;
+      border-radius: 15px;
+      padding: 10px 20px;
+      border: none;
+      font-size: 20px;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+
+    .main button a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .main button:hover {
+      background-color: #606060;
+    }
+
+    /* Footer Styling */
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      font-size: 18px;
+      font-style: italic;
+      color: #999;
+    }
+    /* Styles for screens with a maximum width of 768 pixels */
+
+@media screen and (max-width: 768px) {
+  /* Navbar styles */
+  .navbar {
+    overflow: auto;
+    border-radius: 15px;
+  }
+
+  .navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+    font-size: 16px;
+    border-radius:15px
+  }
+
+  .navbar a.active {
+    background-color: transparent;
+  }
+
+  /* Main content styles */
+  .main {
+    padding: 10px;
+  }
+
+  .main h1 {
+    font-size: 36px;
+  }
+
+  .main h2 {
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+
+  .main h3 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+
+  .main p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .main button {
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 8px 16px;
+  }
+
+  /* Footer styles */
+  footer {
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+  </style>
+</head>
+<body class="main">
+<h1 align="center">Xenon - Desktop Helper</h1>
+<!-- Navbar -->
+<div class="navbar">
+  <a class="active" href="#home">Home</a>
+  <a href="#features">Features</a>
+  <a href="#installation">Installation</a>
+  <a href="#help">Help</a>
+</div>
+<div class="content">
+
+      <h2 id="home">Desktop helping program</h2>
+      <p>Welcome to Xenon's web page, a program designed in python to make your desktop experience smoother and more efficient.
+          <br>
+          Xenon can be a valuable tool
+          for anyone looking to improve their desktop computer experience with a CLI program.
+      </p>
+        <br>
+
+      <h3 id="features">Features</h3>
+      <p>
+          -Whatsapp automation
+          <br>
+          -Local python server hosting
+          <br>
+          -File management commands
+          <br>
+          -Easily accessible calculator
+          <br>
+          -Window handling commands
+          <br>
+          -Utility commands
+          <br>
+          -Wikipedia in CLI
+          <br>
+          -Wifi controls
+      </p>
+
+        <h3 id="installation">Installation</h3>
+        <h4>Here's How You Can Install Xenon</h4>
+      <p>~Download the Xenon ZIP file by clicking on the button at the end of the section
+      <br>
+          ~Unzip the downloaded file
+          <br>
+          ~Move it to C:/Users/{Your Login Account}/
+          <br>
+          ~Install python from <a href="https://www.python.org/downloads/">here</a>
+          <br>
+          ~Open PowerShell
+          <br>
+          ~Type:- python Xenon
+          <br>
+          Done!
+      </p>
+        <button style="background-color: #808080; color: white; border-radius: 15px; padding: 10px 20px; border: none;">
+            <a href="/Xenon.zip" download>Download Xenon</a>
+        </button>
+        <br>
+
+        <h3 id="help">Help</h3>
+      <p>You can ask for help on Telegram:-<a href="https://t.me/xenonSupportGroup"  target="_blank"><button style="font-size:20px ; border-radius:15px ; background-color: #808080">Support Group<i class="fa fa-telegram"></i></button></a>
+        <br>
+          ~Telegram id:- @xenonSupportGroup
+          <br>
+          ~You can share your error-report.txt file on telegram support group in case facing any error or issue
+          <br>
+          ~Tag the admins in the group using @admins tag
+          <br>
+
+          </p>
+
+</div>
+</body>
