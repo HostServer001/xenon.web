@@ -12,24 +12,21 @@
       text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5)
     }
       .my-video {
-        width: 60vh;
-        height: 50vh;
         border-radius:15px;
         border:3px solid black
       }
 
       @media (min-width: 768px) {
         .my-video {
-          width: 60vh;
-          height: 50vh;
-          border-radius:15px
+          border-radius:15px;
+          border:3px solid black
         }
       }
     </style>
   </head>
   <body class="body">
     <h1 align="center">Command-Help</h1>
-    <video loop mute id="command-help" class="my-video">
+    <video loop mute id="command-help" class="my-video" controls>
       <source src="help.mp4" type="video/mp4">
     </video>
   </body>
