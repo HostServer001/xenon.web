@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  var repo = "username/repository-name";
+  var repo = "hostserver001/xenon.web/command-help";
   var path = "files";
   var url = "https://api.github.com/repos/" + repo + "/contents/" + path;
 
