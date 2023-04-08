@@ -2,12 +2,22 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>File Listing</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="file-listing.js"></script>
+    <title>Responsive Video Example</title>
+    <style>
+      .my-video {
+        width: 30vh;
+        height: 20vh;
+      }
+
+      @media (min-width: 768px) {
+        .my-video {
+          width: 30vh;
+          height: 20vh;
+        }
+      }
+    </style>
   </head>
   <body>
-    <h1>File Listing</h1>
-    <ul id="file-listing"></ul>
+    <video id="command-help" class="my-video" src="/help.mp4" controls></video>
   </body>
 </html>
