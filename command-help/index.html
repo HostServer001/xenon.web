@@ -4,6 +4,14 @@
     <meta charset="utf-8">
     <title>Command-Help</title>
     <style>
+      .grid-container {
+        display:grid;
+        column-gap:5px;
+        row-gap:5px
+      }
+      .grid-item {
+        text-align:center
+      }
       .body {
       background-color:#4D4D4D;
       background-size: cover;
@@ -28,8 +36,8 @@
   </head>
   <body class="body">
     <h1 align="center">Command-Help</h1>
-    
-    <div id="command-help">
+    <div class="grid-container">
+    <div id="command-help" class="grid-item">
       <h3>
         Help Command
       </h3>
@@ -38,7 +46,7 @@
       </video>
     </div>
     
-    <div id="command-no">
+    <div id="command-no" class="grid-container">
       <h3>
         This is no command
       </h3>
