@@ -37,10 +37,45 @@
         width:100%;
         border-radius:15px;
       }
+  @media only screen and (max-width: 767px) {
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      border-radius: 15px;
+    }
 
-      @media (min-width: 768px) {
-        /*Add android support here*/
-      }
+    .grid-item {
+      padding: 10px;
+      background-color: rgba(0,0,0,0.5);
+      text-align: center;
+      border-radius: 15px;
+      font-size: 14px;
+    }
+
+    .centered {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .body {
+      background-color: #4D4D4D;
+      background-size: cover;
+      font-family: "Courier New", Courier, monospace;
+      color: black;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+      font-size: 12px;
+    }
+
+    .my-video {
+      height:80%;
+      width:100%;
+      border-radius:15px;
+    }
+  }
+
+
     </style>
   </head>
   <body class="body">
