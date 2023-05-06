@@ -1,0 +1,116 @@
+<link rel="shortcut icon" type="image/x-icon" href="this-logo.ico">
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Command-Help</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        border-radius:15px
+      }
+
+      .grid-item {
+        padding: 20px;
+        background-color: rgba(0,0,0,0.5);
+        text-align:center;
+        border-radius:15px
+      }
+
+      .centered {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .body {
+        background-image:url("cmd-back.png");
+        background-size: cover;
+        font-family: "Courier New", Courier, monospace;
+        color: white;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5)
+      }
+
+      .my-button{
+        height:6.25%
+        width:12.5%
+      }
+
+      .my-video {
+        height:80%;
+        width:100%;
+        border-radius:15px;
+      }
+
+      /* Responsive design for mobile devices */
+      @media screen and (max-width: 768px) {
+        .grid-container {
+          grid-template-columns: 1fr;
+        }
+      }
+
+    </style>
+  </head>
+  <body class="body">
+    <h1 align="center">Command-Help</h1>
+    <a href="https://hostserver001.github.io/xenon.web">
+      <img src="go-back.png" class="my-button">
+    </a>
+
+    <br>
+    <br>
+
+    <div class="grid-container">
+
+      <div id="command-help" class="grid-item">
+        <h3>Help Command</h3>
+        <video loop muted class="my-video" controls>
+          <source src="help.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div id="command-calc" class="grid-item">
+        <h3>Calc Command</h3>
+        <video loop muted class="my-video" controls>
+          <source src="calc.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div id="command-search" class="grid-item">
+        <h3>Search Command</h3>
+        <video loop muted class="my-video" controls>
+          <source src="search.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div id="command-web" class="grid-item">
+        <h3>Web Command</h3>
+        <video loop muted class="my-video" controls>
+          <source src="web.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div id="command-desk" class="grid-item">
+        <h3>Desk Command</h3>
+        <video loop muted class="my-video" controls>
+          <source src="desk.mp4" type="video/mp4">
+        </video>
+
+      </div>
+      <div id="command-admin" class="grid-item">
+        <h3>Admin Command</h3>
+        <h2>This command is not for normal users therefore help video not available </h2>
+      </div>
+
+      <div class="grid-item">
+        <h3>Note this section of the website is still under development . Help videos for all commands will be added soon</h3>
+      </div>
+      
+    </div>
+    
+  </body>
+</html>
